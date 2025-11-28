@@ -1,0 +1,60 @@
+# ==============================
+# CLion + C++ 项目 .gitignore
+# 适用于数据结构学习仓库
+# ==============================
+
+# IDE: CLion / IntelliJ
+.idea/
+*.iml
+
+# Build directories (CMake)
+cmake-build-*/
+build/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+compile_commands.json
+
+# CMake API & Index files (the JSON files you saw)
+cmakeFiles-*.json
+codemodel-*.json
+index-*.json
+toolchains-*.json
+target-*.json
+directory-*.json
+
+# Compiled binaries
+*.exe
+*.out
+*.app
+
+# Object and intermediate files
+*.o
+*.obj
+*.d
+*.ilk
+*.pdb
+*.lib
+*.dll
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+*.old
+*.orig
+
+# Cache files
+cache-v2*
+.ninja_log
+.ninja_deps
+
+# OS generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
